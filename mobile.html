@@ -5,7 +5,7 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    
+
     <title>exported project</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="utf-8" />
@@ -377,5 +377,29 @@
         </div>
       </div>
     </div>
+
+
+    <script>
+      function ajustarVista() {
+        const ancho = window.innerWidth;
+    
+        if (ancho < 480) {
+          console.log("Vista móvil pequeña");
+          document.body.classList.add("pantalla-pequena");
+        } else if (ancho < 768) {
+          console.log("Vista tipo tablet");
+          document.body.classList.add("pantalla-mediana");
+        } else {
+          console.log("Pantalla grande");
+          document.body.classList.add("pantalla-grande");
+        }
+      }
+    
+      // Ejecutar al cargar y al cambiar tamaño
+      ajustarVista();
+      window.addEventListener("resize", ajustarVista);
+    </script>
+
+
   </body>
 </html>
