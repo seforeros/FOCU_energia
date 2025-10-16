@@ -1,6 +1,22 @@
 <!DOCTYPE html>
 <html lang="english">
   <head>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        // Detecta si el usuario está en un dispositivo móvil
+        const esMovil = /Mobi|Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+          navigator.userAgent
+        );
+    
+        // Si es móvil, redirige a mobile.html
+        if (esMovil) {
+          window.location.href = "mobile.html";
+        }
+      });
+    </script>    
+
+    
     <title>exported project</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="utf-8" />
@@ -265,6 +281,7 @@
                 class="desktop-svgvieweroutput21"
               />
             </div>
+
 <a href="https://studio.seosenergy.co/solar-simulator?customerId=765e6908-a1e9-4c59-9a65-8b79523fd8cd" target="_blank" rel="noopener noreferrer" class="desktop-botoncotiza">
   <img
     src="public/cotiza63-y7zr-200h.png"
