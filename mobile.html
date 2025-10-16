@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="english">
+  <head>
+    <title>exported project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./mobile.css" rel="stylesheet" />
+
+      <div class="mobile-container">
+        <div class="mobile-mobile">
+          <div class="mobile-navigation-footer">
+            <div class="mobile-items1">
+              <span class="mobile-text10">Política de privacidad</span>
+            </div>
+            <span class="mobile-text11">
+              Focu Energía © 2025 Todos los derechos reservados
+            </span>
+            <div class="mobile-items2">
+              <span class="mobile-text12">Términos y condiciones</span>
+            </div>
+            <div class="mobile-social-icons">
+              <button class="mobile-buttons-icon1">
+                <a
+                  href="https://www.facebook.com/profile.php?id=61579388109999"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="mobile-link1"
+                >
+                  <div class="mobile-icon1">
+                    <img
+                      src="public/icon3613-1d8o.svg"
+                      alt="Icon3613"
+                      class="mobile-icon2"
+                    />
+                  </div>
+                </a>
+              </button>
+              <button class="mobile-buttons-icon2">
+                <a
+                  href="https://www.linkedin.com/company/107738776/"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="mobile-link2"
+                >
+                  <div class="mobile-icon3">
+                    <img
+                      src="public/icon3618-2ee.svg"
+                      alt="Icon3618"
+                      class="mobile-icon4"
+                    />
+                  </div>
+                </a>
+              </button>
+              <button class="mobile-buttons-icon3">
+                <a
+                  href="https://www.instagram.com/focu-energia"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="mobile-link3"
+                >
+                  <div class="mobile-icon5">
+                    <img
+                      src="public/icon3623-8uj.svg"
+                      alt="Icon3623"
+                      class="mobile-icon6"
+                    />
+                  </div>
+                </a>
+              </button>
+            </div>
+            <img
+              src="public/divider3626-ai6.svg"
+              alt="Divider3626"
+              class="mobile-divider"
+            />
+            <img
+              src="public/logotipofocu1142-ysw-200h.png"
+              alt="image"
+              class="mobile-image1"
+            />
+          </div>
+          <div class="mobile-about">
+            <div class="mobile-explanation">
+              <div class="mobile-pagetitle1">
+                <span class="mobile-text13">
+                  Soluciones en energía solar accesible, rentable y para siempre
+                </span>
+                <span class="mobile-text14">
+                  Desarrollo de proyectos en todo el territorio nacional
+                </span>
+              </div>
+            </div>
+            <div class="mobile-campohogar">
+              <img
+                src="public/buttonhogar3637-amhp.svg"
+                alt="buttonhogar3637"
+                class="mobile-buttonhogar1"
+              />
+              <span class="mobile-text15">Hogar</span>
+              <img
+                src="public/svgvieweroutput213639-i03f.svg"
+                alt="svgvieweroutput213639"
+                class="mobile-svgvieweroutput211"
+              />
+            </div>
+            <a
+              href="https://focuenergia.com/simulador_cotizaciones"
+              target="_blank"
+              rel="noreferrer noopener"
+              class="mobile-link4"
+            >
+              <div class="mobile-botoncotiza">
+                <img
+                  src="public/cotiza3642-cus-200h.png"
+                  alt="cotiza3642"
+                  class="mobile-cotiza"
+                />
+                <div class="mobile-copy1">
+                  <div class="mobile-pagetitle2">
+                    <span class="mobile-text16">
+                      Dimensionamiento, estimación de costos y retorno de
+                      inversión
+                    </span>
+                  </div>
+                </div>
+                <div class="mobile-copy2">
+                  <div class="mobile-pagetitle3">
+                    <span class="mobile-text17">
+                      Calcula tu ahorro en minutos
+                    </span>
+                  </div>
+                </div>
+                <img
+                  src="public/arrow13649-a73i.svg"
+                  alt="Arrow13649"
+                  class="mobile-arrow1"
+                />
+                <img
+                  src="public/svgvieweroutput313650-f1zm.svg"
+                  alt="svgvieweroutput313650"
+                  class="mobile-svgvieweroutput31"
+                />
+              </div>
+            </a>
+            <div class="mobile-frame129f14b3b3a290079c42ab7eff324be31">
+              <div class="mobile-group">
+                <img
+                  src="public/vector3654-rpr3.svg"
+                  alt="Vector3654"
+                  class="mobile-vector"
+                />
+              </div>
+            </div>
+            <div class="mobile-campoempresa">
+              <img
+                src="public/buttonhogar3667-8idg.svg"
+                alt="buttonhogar3667"
+                class="mobile-buttonhogar2"
+              />
+              <span class="mobile-text18">Empresa</span>
+              <img
+                src="public/svgvieweroutput213669-c7n9.svg"
+                alt="svgvieweroutput213669"
+                class="mobile-svgvieweroutput212"
+              />
+            </div>
+          </div>
+          <div class="mobile-hero-image">
+            <div class="mobile-copy3">
+              <div class="mobile-pageslogan">
+                <span class="mobile-text19">
+                  Donde el accesoa la energía primaria,es posible!
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="mobile-navigation">
+            <img
+              src="public/rectangle123-v89a-200h.png"
+              alt="image"
+              class="mobile-image2"
+            />
+            <div class="mobile-frame1">
+              <div class="mobile-items3">
+                <a
+                  href="https://wa.me/573114721514"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="mobile-button"
+                >
+                  <span class="mobile-text20">Cotiza aquí</span>
+                  <img
+                    src="public/svgviewer-output.svg"
+                    alt="image"
+                    class="mobile-image3"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,635 @@
+.desktop-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.desktop-desktop {
+  width: 100%;
+  height: 1647px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.desktop-navigation-footer {
+  top: 1463px;
+  left: 0px;
+  width: 1440px;
+  height: 184px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.desktop-items1 {
+  gap: 24px;
+  top: 96px;
+  left: 866px;
+  width: 187px;
+  display: flex;
+  position: absolute;
+  align-items: flex-end;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.desktop-text10 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 16px;
+  align-self: stretch;
+  font-style: Medium;
+  text-align: left;
+  font-family: Ubuntu;
+  font-weight: 500;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop-text11 {
+  top: 117px;
+  left: 226px;
+  color: rgba(0, 0, 0, 1);
+  width: 446px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Ubuntu;
+  font-weight: 500;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop-items2 {
+  gap: 24px;
+  top: 96px;
+  left: 1088px;
+  width: 187px;
+  display: flex;
+  position: absolute;
+  align-items: flex-end;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.desktop-text12 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 16px;
+  align-self: stretch;
+  font-style: Medium;
+  text-align: left;
+  font-family: Ubuntu;
+  font-weight: 500;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop-logotipofocu1 {
+  top: 51px;
+  left: 218px;
+  width: 250px;
+  height: 61px;
+  position: absolute;
+}
+ 
+.desktop-social-icons {
+  gap: 8px;
+  top: 62px;
+  left: 485px;
+  width: 136px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
+ 
+.desktop-buttons-icon1 {
+  gap: 8px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  padding: 8px;
+  position: relative;
+  align-items: center;
+  border-radius: 4px;
+  justify-content: center;
+}
+ 
+.desktop-icon1 {
+  top: 8px;
+  left: 8px;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.desktop-icon2 {
+  top: 2.0399999618530273px;
+  left: 2px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+ 
+.desktop-buttons-icon2 {
+  gap: 8px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  padding: 8px;
+  position: relative;
+  align-items: center;
+  border-radius: 4px;
+  justify-content: center;
+}
+ 
+.desktop-icon3 {
+  top: 8px;
+  left: 8px;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.desktop-icon4 {
+  top: 3px;
+  left: 3px;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+}
+ 
+.desktop-buttons-icon3 {
+  gap: 8px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  padding: 8px;
+  position: relative;
+  align-items: center;
+  border-radius: 4px;
+  justify-content: center;
+}
+ 
+.desktop-icon5 {
+  top: 8px;
+  left: 8px;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.desktop-icon6 {
+  top: 2px;
+  left: 2px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+ 
+.desktop-divider {
+  top: 16px;
+  left: 80px;
+  width: 1280px;
+  height: 1px;
+  position: absolute;
+  align-self: stretch;
+}
+ 
+.desktop-about {
+  top: 824px;
+  left: 0px;
+  width: 1438px;
+  height: 639px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.desktop-campoempresa {
+  top: 77px;
+  left: 982px;
+  width: 262px;
+  height: 66px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.desktop-buttonempresa {
+  top: -1px;
+  left: 0px;
+  width: 262px;
+  height: 67px;
+  position: absolute;
+  border-radius: 100px;
+}
+ 
+.desktop-text13 {
+  top: 13px;
+  left: 131px;
+  color: rgba(255, 255, 255, 1);
+  width: 108px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Ubuntu;
+  font-weight: 500;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop-svgvieweroutput4 {
+  top: 2px;
+  left: 50px;
+  width: 58px;
+  height: 58px;
+  position: absolute;
+}
+ 
+.desktop-explanation {
+  gap: 40px;
+  top: 194px;
+  left: 706px;
+  width: 593px;
+  height: 195px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.desktop-pagetitle1 {
+  gap: 24px;
+  height: 195px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.desktop-text14 {
+  color: rgba(19, 47, 76, 1);
+  height: auto;
+  font-size: 40px;
+  align-self: stretch;
+  font-style: Light;
+  text-align: left;
+  font-family: Ubuntu;
+  font-weight: 300;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop-campohogar {
+  top: 77px;
+  left: 689px;
+  width: 262px;
+  height: 67px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.desktop-buttonhogar {
+  top: 0px;
+  left: 0px;
+  width: 262px;
+  height: 67px;
+  position: absolute;
+}
+ 
+.desktop-text19 {
+  top: 13px;
+  left: 131px;
+  color: rgba(255, 255, 255, 1);
+  width: 105px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Ubuntu;
+  font-weight: 500;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop-svgvieweroutput21 {
+  top: 0px;
+  left: 51px;
+  width: 62px;
+  height: 62px;
+  position: absolute;
+}
+ 
+.desktop-botoncotiza {
+  left: 595px;
+  width: 678px;
+  bottom: 15px;
+  height: 125px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.desktop-cotiza {
+  top: 0px;
+  left: 0px;
+  width: 678px;
+  height: 125px;
+  position: absolute;
+  border-radius: 50px;
+}
+ 
+.desktop-copy1 {
+  gap: 40px;
+  top: 51px;
+  left: 182px;
+  width: 430px;
+  height: 30px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.desktop-pagetitle2 {
+  gap: 24px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.desktop-text20 {
+  color: rgba(19, 47, 76, 1);
+  width: 447px;
+  height: auto;
+  font-size: 20px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Ubuntu;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop-copy2 {
+  gap: 40px;
+  top: 15px;
+  left: 182px;
+  width: 430px;
+  height: 30px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.desktop-pagetitle3 {
+  gap: 24px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.desktop-text21 {
+  color: rgba(19, 47, 76, 1);
+  width: 447px;
+  height: auto;
+  font-size: 32px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Ubuntu;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop-arrow1 {
+  top: 66px;
+  left: 614px;
+  width: 34px;
+  height: 1px;
+  position: absolute;
+}
+ 
+.desktop-svgvieweroutput31 {
+  top: 6px;
+  left: 45px;
+  width: 110px;
+  height: 110px;
+  position: absolute;
+}
+ 
+.desktop-frame129f14b3b3a290079c42ab7eff324be31 {
+  top: 40px;
+  left: 139px;
+  width: 402px;
+  height: 547px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.desktop-group {
+  top: 1.146492600440979px;
+  left: 1.1948333978652954px;
+  width: 399.5910949707031px;
+  height: 544.1790161132812px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.desktop-vector {
+  top: 0px;
+  left: 0px;
+  width: 400px;
+  height: 544px;
+  position: absolute;
+}
+ 
+.desktop-hero-image {
+  top: 184px;
+  left: 80px;
+  width: 1280px;
+  height: 640px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(223, 223, 223, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.4300000071525574);
+  background-image: url("public/tq_jbnnkzjcf3-8axs-700h.png");
+}
+ 
+.desktop-copy3 {
+  gap: 40px;
+  top: 98px;
+  left: 41px;
+  width: 802px;
+  display: flex;
+  position: absolute;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.desktop-pageslogan {
+  gap: 24px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.desktop-text22 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 64px;
+  align-self: stretch;
+  font-style: Bold;
+  text-align: left;
+  font-family: Ubuntu;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop-navigation {
+  top: 0px;
+  left: 0px;
+  width: 1440px;
+  height: 164px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.desktop-rectangle1 {
+  top: 13px;
+  left: 98px;
+  width: 138px;
+  height: 138px;
+  position: absolute;
+}
+ 
+.desktop-frame1 {
+  top: 45px;
+  right: 112px;
+  width: 292px;
+  height: 84px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  justify-content: flex-start;
+}
+ 
+.desktop-items3 {
+  gap: 48px;
+  top: 0px;
+  left: 0px;
+  width: 292px;
+  display: flex;
+  position: absolute;
+  align-items: flex-end;
+  flex-shrink: 0;
+  justify-content: flex-start;
+}
+ 
+.desktop-button {
+  gap: 8px;
+  width: 292px;
+  display: flex;
+  padding: 14px 24px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05000000074505806) ;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 8px;
+  justify-content: center;
+  background-color: rgba(19, 47, 76, 1);
+}
+ 
+.desktop-text23 {
+  color: rgba(255, 255, 255, 1);
+  width: 148px;
+  height: auto;
+  font-size: 20px;
+  font-style: Medium;
+  text-align: center;
+  font-family: Ubuntu;
+  font-weight: 500;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop-image {
+  width: 55px;
+  height: 100%;
+  object-fit: cover;
+}
